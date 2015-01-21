@@ -7,8 +7,16 @@ Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Cribbage.Core", "src\Cribba
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{2140C939-C880-4783-BE0A-85A18660E8E8}"
 	ProjectSection(SolutionItems) = preProject
+		build.fsx = build.fsx
 		README.md = README.md
 	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{2D715AB1-9F9A-4F54-BD26-EDFFA7B724BA}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\packages.config = .nuget\packages.config
+	EndProjectSection
+EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Cribbage.Core.UnitTests", "tests\Cribbage.Core.UnitTests\Cribbage.Core.UnitTests.fsproj", "{ABC4A40B-02F2-46F4-A610-B8C02ABB9F5C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -20,6 +28,10 @@ Global
 		{B5D4C8B5-55E2-4514-A302-1FD7A30FD625}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B5D4C8B5-55E2-4514-A302-1FD7A30FD625}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B5D4C8B5-55E2-4514-A302-1FD7A30FD625}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ABC4A40B-02F2-46F4-A610-B8C02ABB9F5C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ABC4A40B-02F2-46F4-A610-B8C02ABB9F5C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ABC4A40B-02F2-46F4-A610-B8C02ABB9F5C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ABC4A40B-02F2-46F4-A610-B8C02ABB9F5C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

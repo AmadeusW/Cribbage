@@ -8,3 +8,5 @@ I decided to write a version of Cribbage to
 and maybe
 
 - Learn OWIN and SignalR
+
+[![Build status](https://ci.appveyor.com/api/projects/status/l2deqwpl9yi39sc8?svg=true)](https://ci.appveyor.com/project/MarcinJuraszek/cribbage)

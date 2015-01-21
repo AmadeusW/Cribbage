@@ -1,4 +1,6 @@
-﻿module Cards
+﻿namespace Cribbage.Core
+
+module Cards =
 
     // declare ranks (Ace, 2 - 10) and faces (JQK)
     type Rank = Ace | Two | Three | Four | Five | Six | Seven | Eight | Nine | Ten

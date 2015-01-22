@@ -15,7 +15,7 @@ module Cards =
 
     // declare Card
     type Card =
-    | RankCard of (Rank * Suit)
+    | RankCard of Rank * Suit
     | FaceCard of Face * Suit
 
     // declare how much the cards are worth
@@ -49,10 +49,10 @@ module Cards =
 
     let suitToString suit =
         match suit with
-        | Spade -> "â "
-        | Heart -> "âĽ"
-        | Diamond -> "âŚ"
-        | Club -> "âŁ"
+        | Spade -> "♠"
+        | Heart -> "♥"
+        | Diamond -> "♦"
+        | Club -> "♣"
 
     let cardToString card =
         match card with

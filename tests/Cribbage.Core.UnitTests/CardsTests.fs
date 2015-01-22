@@ -63,7 +63,7 @@ module Cards =
             Assert.AreEqual((hand1 |> List.length), nbOfCards)
             Assert.AreEqual((deck |> List.length), expectedNbOfCardsInDeckAfterDeal)
 
-        let tenCardDeck = deck |> List.take 10
+        let tenCardDeck = deck |> Seq.take 10 |> Seq.toList
         let dealCardsFromTenCardDeckAndAssert = dealCardsAndAssertHandsAndDeck tenCardDeck
 
         [<Test>]
@@ -83,7 +83,7 @@ module Cards =
         let ``Deal two 6 card hands from 10 cards deck should throw invalidArg`` ()=
             dealCardsFromTenCardDeckAndAssert 6
 
-        let sevenCardDeck = deck |> List.take 7
+        let sevenCardDeck = deck |> Seq.take 7 |> Seq.toList
         let dealCardsFromSevenCardDeckAndAssert = dealCardsAndAssertHandsAndDeck sevenCardDeck
 
         [<Test>]

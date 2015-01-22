@@ -7,6 +7,7 @@ open Cribbage.Core
 module Cards =
 
     open Cribbage.Core.Cards
+    open Microsoft.FSharp.Collections
 
     module FullDeckTests =
 
